@@ -3,7 +3,7 @@ var router = express.Router();
 
 function initEmployee(db) {
   
-var fileModel = require('./jsonmodel');
+var fileModel = require('./jsonModel');
   var empModel = require('./employeeModel')(db);
   var data = null;
   //rutas a implementar
